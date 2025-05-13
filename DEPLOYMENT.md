@@ -97,7 +97,7 @@ axios.get(`${process.env.REACT_APP_API_URL}/api/data/`, {
 1. **Deploy Backend First** - Get the live backend URL
 2. **Update Frontend** with backend URL
 3. **Deploy Frontend**
-
+4. **Add Frontend url in backend allowed origin and redeploy the backend **
 ## 🔧 Troubleshooting
 
 - **CORS Issues**: Ensure your backend allows requests from your frontend domain
