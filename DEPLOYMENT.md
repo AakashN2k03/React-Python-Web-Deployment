@@ -118,13 +118,5 @@ axios.get(`${process.env.REACT_APP_API_URL}/api/data/`, {
 - **Build Errors**: Check deployment logs for build-time errors
 - **Runtime Errors**: Monitor application logs for runtime exceptions
 
-## 🚩 Next Steps
-
-- Add user authentication
-- Implement result saving functionality
-- Add more advanced NLP features
-- Improve UI/UX with visualization of sentiment scores
-
-## 📄 License
-
-MIT
+- ###  Once you've added your Vercel frontend URL to allow_origins in the backend, push the changes to GitHub and trigger a "Manual Deploy → Deploy Latest Commit" on Render to redeploy the backend. This ensures that only requests from your specified frontend origin can communicate with the backend.
+  
